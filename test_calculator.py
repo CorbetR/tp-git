@@ -1,4 +1,4 @@
-from calculator import addition
+from calculator import addition, soustraction, division
 
 
 
@@ -6,7 +6,7 @@ def test_addition():
     assert addition(1, 2) == 3
 
 def test_substraction():
-    assert addition(5, 2) == 3
+    assert soustraction(5, 2) == 3
 
 def test_division():
-    assert addition(4, 2) == 2
+    assert division(4, 2) == 2
