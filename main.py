@@ -1,3 +1,4 @@
 #Test
+
 def test():
-    return "Test"
+    return test
