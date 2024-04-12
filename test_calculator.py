@@ -5,7 +5,7 @@ from calculator import addition
 def test_addition():
     assert addition(1, 2) == 3
 
-def test_soustraction():
+def test_substraction():
     assert addition(5, 2) == 3
 
 def test_division():
